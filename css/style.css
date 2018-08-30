@@ -1,0 +1,457 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+/*..Navbar..*/
+	.header{
+		width: 100%;
+		height: 60px;
+		background: rgba(0,0,0,0.5);
+		position: fixed;
+		top: 0px;
+		z-index: 9999999999;
+	}
+	.wrap-container{ 
+		width: 80%;
+		margin: 0px auto;
+	}
+	.my-image{
+		width: 40px;
+		height: 40px;
+		padding-top: 10px;
+	}
+	.active{
+		background: rgba(0,0,0,0.5);
+	}
+	.menu ul{
+		padding: 0px;
+	}
+	.menu ul li{
+		list-style: none;
+		display: inline;
+		color: white;
+		font-size: 18px;
+		padding: 20px;
+		line-height: 1.5;
+	}
+	.menu ul li:hover{
+		background: rgba(0,0,0,0.5);
+	}
+	.menu ul a{
+		text-decoration: none;
+	}
+	.header-images{
+		float: left;
+	}
+	.menu{
+		float: right;
+	}
+	.menu-btn{
+		position: absolute;
+		right: 20px;
+		top: 4px;
+		width: 45px;
+		height: 40px;
+		display: none;
+	}
+
+/*..Header..*/
+	.wrapper-content{
+		text-align: center;
+		padding-top: 10%;
+		padding-bottom: 20%;
+		background: url(../img/index.jpg) 100% fixed;
+		background-size: cover;
+		background-position: center;
+	}
+	.wrapper-content h1{
+		color: #004700;
+		font-size: 40px;
+		-webkit-text-stroke: 1px #00ff66;
+		-moz-text-stroke: 1px #00ff66;
+		margin-bottom: 0px;
+	}
+	.wrapper-content h2{
+		color: #ff0000;
+		font-size: 40px;
+
+		margin-bottom: 0px;
+	}
+	.wrapper-content p{
+		color: red;
+		padding-top: 30px;
+	}
+	.my-btn { 
+		color: red;
+		font-size: 25px;
+		border: 1px solid #00ff43;
+		border-radius: 100px;
+		background: linear-gradient(rgba(0,255,55,0.6), rgba(0,255,55,0.4));
+		padding: 10px 30px;
+		cursor: pointer;
+	}
+	.my-btn:hover{
+		background: linear-gradient(rgba(0,255,55,0.7), rgba(0,255,55,0.4));
+	}
+
+/*..About Us..*/
+	.about-us{
+		width: 100%;
+		min-height: 350px;
+		background-image: url(../img/about.png);
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+		padding-top: 10%;
+		padding-bottom: 10%;
+		text-align: center;
+	}
+	.about-us h1{
+		color: #004700;
+		padding: 50px 0px;
+		margin-bottom: -30px;
+		text-decoration: underline wavy red;
+		text-shadow: 2px 2px 8px #FF0000;
+	}
+	.about-us p{
+		color: #004700;
+		font-family: cursive;
+		font-style: italic;
+		line-height: 2.5;
+		padding-bottom: 5%;
+	}
+
+/*...My Skills...*/
+	.my-skills{
+		padding-top: 30px;
+		padding-bottom: 50px;
+		background: #000000;
+
+	}
+	.my-skills h1 {
+		color: #004700;
+		padding: 50px 0px;
+		margin-bottom: 30px;
+		padding-top: 20px;
+		text-decoration: underline wavy red;
+		text-shadow: 2px 2px 8px #FF0000;
+		text-align: center;
+		background: #000000;
+	}
+	/* Container for flexboxes */
+	.skill{
+	    display: flex;
+	    flex-wrap: wrap;
+	}
+
+	/* Create four equal columns */
+	.skill-container {
+	    flex: 25%;
+	    padding: 20px;
+	    text-align: center;
+	}
+	.skill-container p{
+		color: #fc0202;
+	}
+	.font-image{
+	font-size: 48px;
+	color: orange;
+	margin-bottom: 20px;
+	}
+	
+/*.....Project..........*/
+	* {
+	    box-sizing: border-box;
+	}
+	.my-project{
+		padding-top: 30px;
+		padding-bottom: 50px;
+		background: #000000;
+	}
+	.my-project h1 {
+			color: #004700;
+			padding: 50px 0px;
+			margin-bottom: 0px;
+			margin-top: 0px;
+			text-decoration: underline wavy red;
+			text-shadow: 2px 2px 8px #FF0000;
+			text-align: center;
+			background: #f0b3ff;
+		}
+	/* Container for flexboxes */
+	.project {
+	    display: flex;
+	    flex-wrap: wrap;
+	}
+	/* Create four equal columns */
+	.project-container {
+	    flex: 25%;
+	    padding: 20px;
+	    text-align: center;
+	}
+	/*Image*/
+	.ig{
+	    display: block;
+	    height: 250px;
+	    width: 100%;
+	    transition: opacity 0.4s ease;
+	}
+	.ig:hover{
+	    opacity: 0.7;
+	}
+
+/*......Contact Us..............*/
+	.contact-us{
+		width: 100%;
+		min-height: 650px;
+		background: black;
+		padding-bottom: 50px;
+	}
+	.contact-us h1{
+		color: rgba(255,255,204,0.64);
+		text-align: center;
+		padding: 50px;
+		margin-top:-15px;
+		text-decoration: underline wavy red;
+		text-shadow: 2px 2px 8px #FFFFCC;
+	}
+	.contact-image{
+		width: 50%;
+		float: left;
+	}
+	.contact-image img{
+		width: 50%;
+		margin: 0px auto;
+	}
+	.contacts-forms{
+		width: 50%;
+		float: right;
+	}
+	.contacts-forms input{
+		width: 100%;
+		border-top: 10px;
+		border-left: none;
+		border-right: none;
+		border-color: #5c895c;
+		padding-bottom: 8px;
+	}
+	.contacts-forms .subject{
+		width: 100% ;
+		margin: 30px 0px;
+	}
+	.contacts-forms textarea{
+		width: 100%;
+		height: 120px;
+		border-top: none;
+		border-right: none;
+		border-left: none;
+		border-color: #5c895c;
+		resize: none;
+		font-family: sans-serif;
+	}
+	.contacts-forms .submit{
+		border: 1px solid blue;
+		font-size: 16px;
+		background-image: linear-gradient(#4db345,#aef382);
+		color: #338c08;
+		margin-top: 40px;
+		width: 100%;
+		padding: 12px 30px;
+		font-size: 16px;
+		border-radius: 100px;
+		cursor: pointer;
+	}
+	.contacts-forms .submit:hover{
+		background-image: linear-gradient(red,yellow);
+	}
+
+/*............Footer...........*/
+	.footer{
+		clear: both;
+		width: 100%;
+		min-height: 200px;
+		background: pink;
+	}
+	.footer-container{ 
+		width: 100%;
+		margin: 0px auto;
+	}
+	.message{
+		float: left;
+		width: 50%;
+		padding-top: 50px;
+		text-align: center;
+		padding-bottom: 50px;
+	}
+	.message p{
+		color: default;
+		font-size: 15px;
+	}
+	.message #madeWith{
+		color: red;
+		font-size: 25px;
+	}
+	.social-links{
+		width: 50%;
+		float: right;
+		padding-top: 50px;
+		text-align: center;
+		padding-bottom: 50px;
+	}
+	.social-links .btn:hover{
+		opacity: 0.7;
+		}
+	.social-links .btn{
+		margin-right: 20px;
+	}
+	
+
+	.footer .copyright{
+		clear: both;
+		width: 100%;
+		height: 60px;
+		background: rgba(0,0,0,0.5);
+	}
+	.footer .copyright p{
+		color: white;
+		text-align: center;
+		padding-top: 20px;
+	}
+
+/*...For 768px....*/
+	@media screen and (max-width: 768px) {
+		.header{
+			height: 50px;
+			background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.7));
+		}
+		.header-images{
+			height: 50px;
+			float: none;
+		}
+		.header-images .brand-images{
+			height: 30px;
+			width: 30;
+			padding: 10px 20px;
+		}
+		.menu{
+			float: none;
+		}
+		.menu ul li{
+			display: block;
+			background: rgba(28,28,28,0.96);
+			padding: 2px;
+			font-size: 17px;
+			text-align: center;
+		}
+		.menu ul li: hover{
+			background: #2a2a2a;
+		}
+		.menu ul{
+			margin: 0px;
+		}
+		.menu-btn{
+			display: block;
+		}
+		.menu{
+			display: none;
+		}
+
+		.wrap-container{
+			width: 90%;
+		}
+		.my-btn{
+			padding: 10px 30px;
+			font-size: 18px;
+		}
+	/*..Contact us..*/
+		.contact-us h1{
+			margin-left: 0px;	
+		}
+		.contact-us .contact-image{
+			float: none;
+			width: 100%;
+			text-align: center;
+		}
+		.contact-image .img{
+			width: 50%;
+		}
+		.contact-us .contacts-forms{
+			float: none;
+			width: 100%;
+			text-align: center;
+		}
+		.contacts-forms input{
+			width: 100%;
+			margin-bottom: 8px;
+		}
+		.contacts-forms .subject{
+			width: 100%;
+		}
+		.contacts-forms .submit{
+			width: 70%;
+			padding: 8px 30px;
+		}
+
+	/*..Footer..*/
+		.footer .social-links{
+			float: none;
+			width: 100%;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		.footer .message{
+			float: none;
+			width: 100%;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		/* On screens that are 992px wide or less, go from four columns to two columns */
+		.skill-container {
+			flex: 50%;
+		}
+	}
+
+/*...For 320px...*/
+	@media screen and (max-width: 320px) {
+		.wrapper-content h1{
+			font-size: 26px;
+		}
+		.wrapper-content {
+			padding-top: 25%;
+			padding-bottom: 25%;
+		}
+		.my-btn { 
+			font-size: 15px;
+			border: 1px solid #00ff43;
+			padding: 2px 5px;
+		}
+		.about-us p{
+			line-height: 2;
+			font-size: 13px;
+		}
+		.message #madeWith {
+			font-size: 20px;
+		}
+		/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+		.skill {
+	      flex-direction: column;
+	    }
+	}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+	@media screen and (max-width: 992px) {
+	    .project-container {
+	        flex: 50%;
+	    }
+	}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+	@media screen and (max-width: 600px) {
+	    .project {
+	      flex-direction: column;
+	    }  
+	}
+
+
+	
