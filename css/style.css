@@ -67,15 +67,14 @@ body{
 	}
 	.wrapper-content h1{
 		color: #004700;
-		font-size: 40px;
+		font-size: 8vw;
 		-webkit-text-stroke: 1px #00ff66;
 		-moz-text-stroke: 1px #00ff66;
 		margin-bottom: 0px;
 	}
 	.wrapper-content h2{
 		color: #ff0000;
-		font-size: 40px;
-
+		font-size: 5vw;
 		margin-bottom: 0px;
 	}
 	.wrapper-content p{
@@ -150,6 +149,7 @@ body{
 	    flex: 25%;
 	    padding: 20px;
 	    text-align: center;
+	    background-color:#000000;
 	}
 	.skill-container p{
 		color: #fc0202;
@@ -189,6 +189,7 @@ body{
 	    flex: 25%;
 	    padding: 20px;
 	    text-align: center;
+	    background-color:#f0b3ff;
 	}
 	/*Image*/
 	.ig{
@@ -317,6 +318,22 @@ body{
 		color: white;
 		text-align: center;
 		padding-top: 20px;
+	}
+	.fa-twitter-square{
+	    font-size: 48px !important;
+	    color: #55ACEE;
+	}
+	.fa-facebook-square{
+		font-size: 48px !important;
+		color: #3B5998;
+	}
+	.fa-linkedin-square{
+		font-size: 48px !important;
+		color: #007bb5;
+	}
+	.fa-copyright{
+		font-size:20px;
+		color: red;
 	}
 
 /*...For 768px....*/
